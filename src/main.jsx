@@ -7,7 +7,7 @@ import LoginPage from "./Components/LoginPage.jsx";
 import ContactsPage from './Components/ContactsPage.jsx'
 import CalendarPage from "@/Components/CalendarPage.jsx";
 import SearchResultPage from "@/Components/searchResult/SearchResultPage.jsx";
-import TestPage from "./Components/TestPage.jsx";
+import EmployeePage from "./Components/EmployeePage.jsx";
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/kalender" element={<CalendarPage/>}/>
                 <Route path="/contacts" element={<ContactsPage/>}/>
                 <Route path="/result" element={<SearchResultPage/>}/>
-                <Route path="/test" element={<TestPage/>}/>
+                <Route path="/employees" element={<EmployeePage/>}/>
             </Routes>
         </BrowserRouter>
     </StrictMode>,
