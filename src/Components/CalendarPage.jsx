@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import {Calendar} from "src/components/ui/calendar.jsx"
-import Header from "src/Components/header/Header.jsx";
-import CourseList from "src/Components/CourseList.jsx"
-import MiniHeader from "src/Components/frontpage/MiniHeader.jsx";
+import {Calendar} from "../components/ui/calendar.jsx"
+import Header from "../Components/header/Header.jsx";
+import CourseList from "../Components/CourseList.jsx"
+import MiniHeader from "../Components/frontpage/MiniHeader.jsx";
 
 export default function CalendarPage() {
     const [date, setDate] = useState(new Date());
